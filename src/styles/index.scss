@@ -1,0 +1,294 @@
+body,
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  min-height: 100vh;
+  @media (min-width: 992px) {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-weight: 700;
+  color: #000;
+}
+
+.hamburgerMenu {
+  width: 16px;
+  height: 16px;
+  display: block;
+  fill: rgba(55, 53, 47, 0.8);
+  flex-shrink: 0;
+  backface-visibility: hidden;
+}
+
+.doubleChevronLeft {
+  width: 14px;
+  height: 14px;
+  display: block;
+  fill: rgba(55, 53, 47, 0.4);
+  flex-shrink: 0;
+  backface-visibility: hidden;
+}
+
+.sidebarSearch {
+  width: 14px;
+  height: 100%;
+  display: block;
+  fill: rgba(55, 53, 47, 0.4);
+  flex-shrink: 0;
+  backface-visibility: hidden;
+}
+
+.searchNew {
+  width: 18px;
+  height: 18px;
+  display: block;
+  fill: rgba(202, 204, 206, 0.6);
+  flex-shrink: 0;
+  backface-visibility: hidden;
+  margin-right: 10px;
+  flex-grow: 0;
+}
+
+.triangle {
+  width: 0.6875em;
+  height: 0.6875em;
+  display: block;
+  fill: rgba(55, 53, 47, 0.4);
+  flex-shrink: 0;
+  backface-visibility: hidden;
+  // transition: transform 200ms ease-out 0s;
+  transform: rotateZ(90deg);
+  &.active {
+    transform: rotate(180deg);
+  }
+}
+
+.page {
+  width: 18px;
+  height: 18px;
+  display: block;
+  fill: rgba(55, 53, 47, 0.4);
+  flex-shrink: 0;
+  backface-visibility: hidden;
+}
+
+.portfolio {
+  width: 100%;
+  height: 15px;
+  display: block;
+  fill: rgba(55, 53, 47, 0.4);
+  flex-shrink: 0;
+  backface-visibility: hidden;
+}
+
+.plus {
+  width: 14px;
+  height: 14px;
+  display: block;
+  fill: rgba(55, 53, 47, 0.4);
+  flex-shrink: 0;
+  backface-visibility: hidden;
+}
+
+.typesCreatedAt {
+  width: 14px;
+  height: 100%;
+  display: block;
+  fill: rgba(55, 53, 47, 0.4);
+  flex-shrink: 0;
+  backface-visibility: hidden;
+}
+
+.gatsby-highlight-code-line {
+  background-color: #feb;
+  display: block;
+  margin-right: -1em;
+  margin-left: -1em;
+  padding-right: 1em;
+  padding-left: 0.75em;
+  border-left: 0.25em solid #f99;
+}
+
+.gatsby-highlight {
+  background-color: #fdf6e3;
+  border-radius: 0.3em;
+  margin: 0.5em 0;
+  padding: 1em;
+  overflow: auto;
+}
+
+.gatsby-highlight pre[class*="language-"] {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  overflow: initial;
+  float: left; /* 1 */
+  min-width: 100%; /* 2 */
+}
+
+/* Adjust the position of the line numbers */
+.gatsby-highlight pre[class*="language-"].line-numbers {
+  padding-left: 2.8em;
+}
+
+/**
+ * If you only want to use line numbering
+ */
+
+.gatsby-highlight {
+  background-color: rgb(247, 246, 243);
+  border-radius: 0.3em;
+  margin: 2em 0;
+  padding: 2em 1.25em;
+  overflow: auto;
+  font-size: 0.9rem;
+}
+
+.gatsby-highlight pre[class*="language-"].line-numbers {
+  padding: 0;
+  padding-left: 2.8em;
+  overflow: initial;
+}
+
+.command-line-prompt > span:before {
+  color: #999;
+  content: " ";
+  display: block;
+  padding-right: 0.8em;
+}
+
+/* Prompt for all users */
+.command-line-prompt > span[data-user]:before {
+  content: "[" attr(data-user) "@" attr(data-host) "] $";
+}
+
+/* Prompt for root */
+.command-line-prompt > span[data-user="root"]:before {
+  content: "[" attr(data-user) "@" attr(data-host) "] #";
+}
+
+.command-line-prompt > span[data-prompt]:before {
+  content: attr(data-prompt);
+}
+
+body {
+  transition: 0.2s ease;
+  &.dark {
+    transition: 0.2s ease;
+    background-color: #2f3437;
+    color: rgba(255, 255, 255, 0.9);
+    .global--header {
+      background-color: #2f3437;
+    }
+    .drawer--contents {
+      background-color: #373c3f;
+      color: rgba(255, 255, 255, 0.6);
+      .label--title {
+        color: rgba(255, 255, 255, 0.9);
+      }
+      .childPagesWrapper {
+        .label--title {
+          color: rgba(255, 255, 255, 0.6);
+        }
+      }
+      .label--parent {
+        background: rgba(202, 204, 206, 0.6);
+        color: rgb(15, 15, 15);
+      }
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6,
+    .list--text,
+    .pages--wrapper,
+    svg {
+      color: rgba(255, 255, 255, 0.9);
+      fill: rgba(255, 255, 255, 0.9);
+    }
+    hr {
+      border-color: rgba(255, 255, 255, 0.07);
+    }
+    .list--text {
+      border-color: rgba(255, 255, 255, 0.14);
+    }
+    .content--wrapper,
+    .article--content {
+      color: rgba(255, 255, 255, 0.9);
+      blockquote {
+        background-color: #131313;
+      }
+    }
+    .gatsby-highlight {
+      background-color: #131313;
+    }
+    .label--wrapper,
+    .list--parent {
+      &:hover {
+        background-color: rgb(71, 76, 80);
+      }
+    }
+    .search--wrapper {
+      background-color: #2f3437;
+      input {
+        color: rgba(255, 255, 255, 0.6);
+      }
+      .search-page--elem {
+        color: rgba(255, 255, 255, 0.8);
+      }
+      .search-page--cat {
+        color: rgba(255, 255, 255, 0.4);
+      }
+      svg {
+        fill: rgba(255, 255, 255, 0.7);
+      }
+      .search-result--parent--wrapper {
+        &:hover {
+          background-color: rgb(71, 76, 80);
+        }
+      }
+    }
+  }
+}
+
+body {
+  .drawer--contents {
+    .i-am-active {
+      .label--title {
+        color: #dd4a68;
+      }
+    }
+  }
+  &.dark {
+    .drawer--contents {
+      .i-am-active {
+        .label--title {
+          color: peachpuff;
+        }
+      }
+    }
+  }
+}
