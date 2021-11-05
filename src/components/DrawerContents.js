@@ -138,30 +138,6 @@ class DrawerContents extends Component {
           </StaticLinksWrapper>
 
           <StaticLinksWrapper>
-            {/* <LabelWrapper className="label--wrapper">
-              <LabelParent Transparent LessMargin>
-                <LabelChild Large>
-                  <svg viewBox="0 0 14 14" className="portfolio">
-                    <path
-                      fillRule="evenodd"
-                      clipRule="evenodd"
-                      d="M7.237 1l7.84 1.237-1.201 7.61L11.5 6.15 9.424 9.38 6 8.84 7.237 1zM5.545 5.31a4 4 0 1 0 2.29 4.832l-2.979-.47.689-4.363zM7 15l4.5-7 4.5 7H7z"
-                    ></path>
-                  </svg>
-                </LabelChild>
-              </LabelParent>
-              <Link
-                to="/products"
-                onClick={this.props.handleDrawer}
-                activeClassName="i-am-active"
-              >
-                <LabelTitleWrapper>
-                  <LabelTitle className="label--title " Light>
-                    Products
-                  </LabelTitle>
-                </LabelTitleWrapper>
-              </Link>
-            </LabelWrapper> */}
             <LabelWrapper className="label--wrapper">
               <LabelParent Transparent LessMargin>
                 <LabelChild Large>
@@ -198,6 +174,30 @@ class DrawerContents extends Component {
                 <LabelTitleWrapper>
                   <LabelTitle className="label--title " Light>
                     Contact
+                  </LabelTitle>
+                </LabelTitleWrapper>
+              </Link>
+            </LabelWrapper>
+            <LabelWrapper className="label--wrapper-fiver">
+              <LabelParent Transparent LessMargin>
+                <LabelChild Large>
+                  <svg viewBox="0 0 14 14" className="portfolio">
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M7.237 1l7.84 1.237-1.201 7.61L11.5 6.15 9.424 9.38 6 8.84 7.237 1zM5.545 5.31a4 4 0 1 0 2.29 4.832l-2.979-.47.689-4.363zM7 15l4.5-7 4.5 7H7z"
+                    ></path>
+                  </svg>
+                </LabelChild>
+              </LabelParent>
+              <Link
+                to="https://www.fiverr.com/alihassnain5/make-fast-and-responsive-web-applications-for-you"
+                onClick={this.props.handleDrawer}
+                activeClassName="i-am-active"
+              >
+                <LabelTitleWrapper>
+                  <LabelTitle className="label--title " Light>
+                    Fiver
                   </LabelTitle>
                 </LabelTitleWrapper>
               </Link>

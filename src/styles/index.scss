@@ -201,6 +201,7 @@ body {
       .label--title {
         color: rgba(255, 255, 255, 0.9);
       }
+
       .childPagesWrapper {
         .label--title {
           color: rgba(255, 255, 255, 0.6);
@@ -245,10 +246,17 @@ body {
     .gatsby-highlight {
       background-color: #131313;
     }
+
     .label--wrapper,
     .list--parent {
       &:hover {
         background-color: rgb(71, 76, 80);
+      }
+    }
+    .label--wrapper-fiver {
+      &:hover {
+        background-color: #1dbf73;
+        transition: 0.2s ease;
       }
     }
     .search--wrapper {
