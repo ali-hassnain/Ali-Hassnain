@@ -62,7 +62,51 @@ class IndexPage extends React.Component {
               👀
             </span>
           </p>
-
+            <ArticleLoopWrapper>
+            <h2 className="h4">Professional Experience</h2>
+            <hr />
+            <ListLoop>
+             <a
+                href="https://www.swoopcart.com/en_AE"
+                rel="nofollow noopener noreferrer"
+                target="_blank"
+              >
+                <ListItemElement externalLink title="Swoop" />
+              </a>
+              <p>
+                <strong>Problem:</strong> People are unable to rent their
+                products safely.
+                <br />
+                <strong>Solution:</strong> People can upload images and details
+                of their products using multi-step form and can rent out their
+                products.
+                <br />
+                <strong>Stack:</strong> Javascript, React (Create React App),
+                Node.js, Strapi
+                <br />
+                <strong>Experience:</strong> July 2023 - Present
+              </p>
+              <a
+                href="https://www.linkedin.com/company/dubizzle-group/posts/?feedView=all"
+                rel="nofollow noopener noreferrer"
+                target="_blank"
+              >
+                <ListItemElement
+                  externalLink
+                  title="Dubizzle"
+                />
+              </a>
+              <p>
+                <strong>Problem:</strong> CRM for the Dubizzle business in the UAE
+                <br />
+                <strong>Solution:</strong> A web application for the management to
+                keep a track for their business.
+                <br /> <strong>Stack:</strong> Javascript, ReactJS
+                <br />
+                <strong>Experience:</strong> Jan 2021 - July 2023
+              </p>
+            </ListLoop>
+          </ArticleLoopWrapper>
           <ArticleLoopWrapper>
             <h2 className="h4">Portfolio</h2>
             <hr />
@@ -122,27 +166,8 @@ class IndexPage extends React.Component {
                 WooCommerce, Wordpress
                 <br />
               </p>
-              <a
-                href="https://github.com/ali-hassnain/swoop"
-                rel="nofollow noopener noreferrer"
-                target="_blank"
-              >
-                <ListItemElement externalLink title="Swoop" />
-              </a>
-              <p>
-                <strong>Problem:</strong> People are unable to rent their
-                products safely.
-                <br />
-                <strong>Solution:</strong> People can upload images and details
-                of their products using multi-step form and can rent out their
-                products.
-                <br />
-                <strong>Stack:</strong> Javascript, React (Create React App),
-                Node.js, Strapi
-                <br />{" "}
-              </p>
             </ListLoop>
-          </ArticleLoopWrapper>
+          </ArticleLoopWrapper> 
         </PagesWrapper>
       </PageWrapperLayout>
     )
