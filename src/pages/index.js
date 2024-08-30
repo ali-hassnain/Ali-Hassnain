@@ -40,24 +40,21 @@ class IndexPage extends React.Component {
           </h1>
           <p>My name is Ali Hassnain, and this is my blog!</p>
           <p>
-            I am a self taught Frontend developer. I used to work in customer
-            development, now I work in web development. Pretty much the same.🤗
+            I’m a Senior Software Engineer in Dubai, turning ideas into high-performance web applications. 
+              From building a consumer app from scratch at Swoop Cart Technologies to enhancing multi-tenant CRM platforms at Dubizzle, 
+              I thrive on crafting seamless user experiences. 👋
           </p>
           <p>
-            I entered this field because it gives me a feeling of satisfaction
-            when I create something. Something which I can own. Something which
-            I gave birth to. It's incredible. 💃🏻
+            My toolkit? 💃🏻
           </p>
           <p>
-            This is what I have been doing every single day since I left my job.
-            My portfolio consists of the products that I have created while
-            learning to practice whatever I learn.
+           JavaScript, TypeScript, ReactJS, NextJS, Apollo Client, and GraphQL, paired with a knack for problem-solving in fast-paced, startup settings.
             <span className="emoji" role="img" aria-label="wave">
               🙏
             </span>
           </p>
           <p>
-            Some are good, some could be better - but we learn by doing.{" "}
+             I collaborate closely making every project a blend of technical excellence and creativity.
             <span className="emoji" role="img" aria-label="dance">
               👀
             </span>
@@ -81,8 +78,7 @@ class IndexPage extends React.Component {
                 of their products using multi-step form and can rent out their
                 products.
                 <br />
-                <strong>Stack:</strong> Javascript, React (Create React App),
-                Node.js, Strapi
+                <strong>Stack:</strong> Typescript, NextJS, Apollo CLient, GraphQL, MongoDB and Node.js
                 <br />
                 <strong>Experience:</strong> July 2023 - Present
               </p>
